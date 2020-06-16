@@ -1,0 +1,18 @@
+@import "../../../assets/scss/sidebar_sizes";
+@import "../../../assets/scss/media_query_size";
+
+.ScrollableArea {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  width: 100%;
+  height: calc(
+    100% - #{$sidebar-header-height} - #{$sidebar-author-height} - #{$sidebar-footer-height}
+  );
+}
+
+@media (max-width: $max_width_mobile) {
+  .ScrollableArea {
+    position: initial;
+  }
+}

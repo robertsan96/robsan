@@ -1,0 +1,10 @@
+@import "../../assets/scss/colors";
+@import "../../assets/scss/sidebar_sizes";
+
+.Sidebar {
+  min-height: 100%;
+  background-color: $primary-color;
+}
+
+.SidebarContent {
+}

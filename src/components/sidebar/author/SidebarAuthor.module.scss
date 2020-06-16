@@ -1,0 +1,18 @@
+@import "../../../assets/scss/colors";
+@import "../../../assets/scss/sidebar_sizes";
+
+.Author {
+  text-align: center;
+  height: $sidebar-author-height;
+
+  img {
+    max-width: 200px;
+  }
+  h4 {
+    color: $accent-color;
+    margin-bottom: 0;
+  }
+  p {
+    color: $primary-color-text;
+  }
+}

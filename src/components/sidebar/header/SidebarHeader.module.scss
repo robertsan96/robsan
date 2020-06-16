@@ -1,0 +1,25 @@
+@import "../../../assets/scss/colors";
+@import "../../../assets/scss/sidebar_sizes";
+
+.Header {
+  background: $accent-color;
+  height: $sidebar-header-height;
+}
+
+.Avatar {
+  text-align: center;
+  img {
+    width: 50px;
+  }
+}
+
+.Title {
+  margin-bottom: 0px;
+  color: $accent-color-text;
+  font-size: 24px;
+}
+
+.Subtitle {
+  color: $accent-color-text-2;
+  font-size: 14px;
+}

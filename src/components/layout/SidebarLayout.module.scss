@@ -1,0 +1,35 @@
+@import "../../assets/scss/media_query_size";
+@import "../../assets/scss/sidebar_sizes";
+
+.SidebarLayout {
+  display: flex;
+}
+
+.Left {
+  width: $sidebar-width;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.Right {
+  position: absolute;
+  left: $sidebar-width;
+  width: calc(100% - #{$sidebar-width});
+}
+
+@media (max-width: $max_width_mobile) {
+  .SidebarLayout {
+    flex-direction: column;
+  }
+
+  .Left {
+    width: 100%;
+    position: relative;
+  }
+
+  .Right {
+    width: 100%;
+    position: initial;
+  }
+}

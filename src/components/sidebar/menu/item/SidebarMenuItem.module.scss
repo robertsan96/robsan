@@ -1,0 +1,35 @@
+@import "../../../../assets/scss/colors";
+@import "../../../../assets/scss/sidebar_sizes";
+
+.Item {
+  height: $sidebar-menu-item-size;
+  background-color: $primary-color-2;
+  border-bottom: 1px solid $separator-color-1;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary-color-3;
+  }
+}
+
+.ItemActive {
+  background-color: $primary-color-3;
+}
+
+.ItemLabel {
+  font-size: 14px;
+  line-height: $sidebar-menu-item-size;
+  margin-bottom: 0;
+
+  color: $primary-color-text;
+  font-weight: normal;
+}
+
+.ItemRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ItemChildren {
+  background-color: $primary-color-2;
+}

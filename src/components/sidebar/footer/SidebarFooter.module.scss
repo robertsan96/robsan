@@ -1,0 +1,18 @@
+@import "../../../assets/scss/sidebar_sizes";
+@import "../../../assets/scss/media_query_size";
+@import "../../../assets/scss/colors";
+
+.Footer {
+  height: $sidebar-footer-height;
+  background-color: $accent-color;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: $max_width_mobile) {
+  .Footer {
+    position: initial;
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../../../assets/scss/colors";
+@import "../../../../assets/scss/sidebar_sizes";
+
+.Box {
+  width: 10px;
+  height: calc(#{$sidebar-menu-item-size} - 1px);
+  background-color: $primary-color-2;
+}
+
+.BoxActive {
+  background-color: $accent-color;
+}

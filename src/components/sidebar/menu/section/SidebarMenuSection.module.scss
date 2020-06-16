@@ -1,0 +1,16 @@
+@import "../../../../assets/scss/colors";
+
+.SidebarMenuSection {
+  margin-bottom: 25px !important;
+}
+
+.SectionTitle {
+  color: $primary-color-text-2;
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.Separator {
+  border: 0.1px dashed $accent-color-transparent;
+}
